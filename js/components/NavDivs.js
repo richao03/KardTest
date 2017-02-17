@@ -1,22 +1,22 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import { browserHistory } from 'react-router';
 
 
 export default class NavDivs extends Component {
-	constructor(props) {
-		super(props);
+    constructor(props) {
+        super(props);
 
-		this.viewTransactions = this.viewTransactions.bind(this);
-	}
+        this.viewTransactions = this.viewTransactions.bind(this);
+    }
 
-	viewTransactions(accountId) {
-		browserHistory.push(`/transaction/${accountId}`);
-	}
+    viewTransactions(accountId) {
+        browserHistory.push(`/transaction/${accountId}`);
+    }
 
-	render() {
-		const { account } = this.props;
-		return (
-			<div className='text-md-center text-sm-center'>
+    render() {
+        const { account } = this.props;
+        return (
+            <div className='text-md-center text-sm-center'>
 
 				<div className="card" style={styles.card}>
 					<div className="card-block">
@@ -40,20 +40,20 @@ export default class NavDivs extends Component {
 				</div>
 
 			</div>
-		)
-	}
+        )
+    }
 }
 
 const styles = {
-	container: {
-		paddingLeft: 100
-	},
-	card: {
-		height: 200,
-		color: '#696969',
-	},
-	button : {
-		borderWidth: 2
-	},
+    container: {
+        paddingLeft: 100
+    },
+    card: {
+        height: 200,
+        color: '#696969',
+    },
+    button: {
+        borderWidth: 2
+    },
 
 }

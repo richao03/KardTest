@@ -1,7 +1,6 @@
 import React, {Component} from "react";
 import ReactDOM from "react-dom";
 import {Router, Route, browserHistory, IndexRoute} from 'react-router';
-
 import SelectBank from './components/SelectBank';
 import Accounts from './components/Accounts';
 import Transaction from './components/Transaction';

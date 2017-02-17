@@ -83,7 +83,7 @@
 
 
 	// module
-	exports.push([module.id, "\n.navbarbar {\n\tcolor: red;\n}\n\n.titleStyle {\n\tfont-size: 40px;\n\tfont-family: 'Lato', sans-serif;\n\t/*font-family: `'Droid Sans', sans-serif`;*/\n\t/*font-family: `'Droid Serif', serif`;*/\n\tcolor: #696969;\n}\n\n\n.sorticon{\n\theight:1em;\n\twidth:auto;\n}\n\n.kardLogo{\n\tdisplay:block;\n\tmargin:auto;\n\tpadding-top:30vh !important;\n}\n.backButton{\n\tclear:both;\n\tmargin-bottom: 20vh !important;\n\tcolor: white;\n\tbackground-color: transparent;\n\tborder: 2px solid white;\n\tborder-radius: 15px;\n}\n\n.backButton:hover{\n\tcolor: rgb(50,82,110) !important;\n\tbackground-color: white !important;\n\n}\n\n.firstButton{\n\tclear:both;\n\tmargin-top: 30vh !important;\n\tcolor: white;\n\tbackground-color: transparent;\n\tborder: 2px solid white;\n\tborder-radius: 15px;\n}\n\n.firstButton:hover{\n\tcolor: rgb(50,82,110) !important;\n\tbackground-color: white !important;\n\n}\n\n.topLogin{\n\theight:100vh;\n\twidth:100vw;\n\tbackground-image: url(\"/background.png\")\n}\n\n\n\n.accountContainer{\n\tbackground-image: url(\"/background.png\");\n}\n\n.card{\n\tmargin:auto;\n\twidth:70vw;\n\tbackground-color: rgba(255,255,255,0.9);\n\tcolor:black;\n\tborder:2px solid black;\n\tborder-radius:10px;\n\tmargin-bottom: 10px;\n}\n\n.card-text{\n\tcolor:black;\n}\n\n.card-title{\n\tcolor:black;\n}\n\n.transContainer{\n\theight:100vh;\n\twidth:100vw;\n\tbackground-image: url(\"/background.png\");\n}\n\n.react-bs-table-container{\n\twidth:70vw;\n\tmargin:auto;\n\tbackground-color: rgb(255,255,255);\n\tborder: 3px rgb(82,159,135) solid;\n\tborder-radius: 10px;\n\n}\n\n.bsTable{\n\tpadding-top: 20vh;\n}\n\n.accountTitle{\n\tcolor:rgb(82,159,135);\n\tpadding-top:3vw;\n}\n\n.form-control{\n\tmargin:auto;\n}\n.react-bs-table{\n\tmargin-left:2px !important;\n}\n\n.table-bordered td, .table-bordered th{\n\tborder: 1px solid rgb(82,159,135) !important;\n\tborder-radius: 10px !important;\n}", ""]);
+	exports.push([module.id, "\n.navbarbar {\n\tcolor: red;\n}\n\n.titleStyle {\n\tfont-size: 40px;\n\tfont-family: 'Lato', sans-serif;\n\t/*font-family: `'Droid Sans', sans-serif`;*/\n\t/*font-family: `'Droid Serif', serif`;*/\n\tcolor: #696969;\n}\n\n\n.sorticon{\n\theight:1em;\n\twidth:auto;\n}\n\n.kardLogo{\n\tdisplay:block;\n\tmargin:auto;\n\tpadding-top:30vh !important;\n}\n.backButton{\n\tclear:both;\n\tmargin-bottom: 20vh !important;\n\tcolor: white;\n\tbackground-color: transparent;\n\tborder: 2px solid white;\n\tborder-radius: 15px;\n}\n\n.backButton:hover{\n\tcolor: rgb(50,82,110) !important;\n\tbackground-color: white !important;\n\n}\n\n.firstButton{\n\tclear:both;\n\tmargin-top: 30vh !important;\n\tcolor: white;\n\tbackground-color: transparent;\n\tborder: 2px solid white;\n\tborder-radius: 15px;\n}\n\n.firstButton:hover{\n\tcolor: rgb(50,82,110) !important;\n\tbackground-color: white !important;\n\n}\n\n.topLogin{\n\theight:100vh;\n\twidth:100vw;\n\tbackground-image: url(\"/img/background.png\")\n}\n\n\n\n.accountContainer{\n\tbackground-image: url(\"/img/background.png\");\n}\n\n.card{\n\tmargin:auto;\n\twidth:70vw;\n\tbackground-color: rgba(255,255,255,0.9);\n\tcolor:black;\n\tborder:2px solid rgb(82,159,135);\n\tborder-radius:10px;\n\tmargin-bottom: 10px;\n}\n\n.card-text{\n\tcolor:black;\n}\n\n.card-title{\n\tcolor:black;\n}\n\n.transContainer{\n\theight:100vh;\n\twidth:100vw;\n\tbackground-image: url(\"/img/background.png\");\n}\n\n.react-bs-table-container{\n\twidth:70vw;\n\tmargin:auto;\n\tbackground-color: rgb(255,255,255);\n\tborder: 3px rgb(82,159,135) solid;\n\tborder-radius: 10px;\n\n}\n\n.bsTable{\n\tpadding-top: 20vh;\n}\n\n.accountTitle{\n\tcolor:rgb(82,159,135);\n\tpadding-top:3vw;\n}\n\n.form-control{\n\tmargin:auto;\n}\n.react-bs-table{\n\tmargin-left:2px !important;\n}\n\n.table-bordered td, .table-bordered th{\n\tborder: 1px solid rgb(82,159,135) !important;\n\tborder-radius: 10px !important;\n}", ""]);
 
 	// exports
 
@@ -27860,7 +27860,7 @@
 	                _react2.default.createElement(
 	                    'div',
 	                    { className: 'topLogin text-md-center' },
-	                    _react2.default.createElement('img', { className: 'kardLogo', src: '/kard-beta-logo-green.png' }),
+	                    _react2.default.createElement('img', { className: 'kardLogo', src: '/img/kard-beta-logo-green.png' }),
 	                    _react2.default.createElement(
 	                        'button',
 	                        { className: 'firstButton',
@@ -38527,7 +38527,7 @@
 	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
-		value: true
+	    value: true
 	});
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
@@ -38553,63 +38553,54 @@
 	var tempData = void 0;
 
 	var UserStore = function (_EventEmitter) {
-		_inherits(UserStore, _EventEmitter);
+	    _inherits(UserStore, _EventEmitter);
 
-		function UserStore(props) {
-			_classCallCheck(this, UserStore);
+	    function UserStore(props) {
+	        _classCallCheck(this, UserStore);
 
-			var _this = _possibleConstructorReturn(this, (UserStore.__proto__ || Object.getPrototypeOf(UserStore)).call(this, props));
+	        var _this = _possibleConstructorReturn(this, (UserStore.__proto__ || Object.getPrototypeOf(UserStore)).call(this, props));
 
-			_Dispatcher2.default.register(function (action) {
-				switch (action.actionType) {
-					case _Constants.ActionTypes.RECEIVE_DATA:
-						dataFromAction = action.data;
-						_this.emit('receiveData');
+	        _Dispatcher2.default.register(function (action) {
+	            switch (action.actionType) {
+	                case _Constants.ActionTypes.RECEIVE_DATA:
+	                    dataFromAction = action.data;
+	                    _this.emit('receiveData');
 
-					default:
-				}
-			});
+	                default:
+	            }
+	        });
 
-			return _this;
-		}
+	        return _this;
+	    }
 
-		_createClass(UserStore, [{
-			key: 'receiveAccount',
-			value: function receiveAccount(accountId) {
-				return mainData.accounts.filter(function (account) {
-					return account._id === accountId;
-				});
-				// return tempData.accounts.filter(account => {
-				// 	return (account._id === accountId);
-				// })
-			}
-		}, {
-			key: 'receiveTransactions',
-			value: function receiveTransactions(accountId) {
-				// return tempData.transactions.filter(transaction => {
-				// 	return (transaction._account === accountId);
-				// })
+	    _createClass(UserStore, [{
+	        key: 'receiveAccount',
+	        value: function receiveAccount(accountId) {
+	            return mainData.accounts.filter(function (account) {
+	                return account._id === accountId;
+	            });
+	        }
+	    }, {
+	        key: 'receiveTransactions',
+	        value: function receiveTransactions(accountId) {
 
-				return mainData.transactions.filter(function (transaction) {
-					return transaction._account === accountId;
-				});
-			}
-		}, {
-			key: 'receiveData',
-			value: function receiveData() {
-				dataFromAction = JSON.parse(dataFromAction);
-				mainData = dataFromAction;
-				return mainData;
-				// console.log('mainData', mainData);
-				tempData = {
-					"thereIsNo": "data"
-				};
+	            return mainData.transactions.filter(function (transaction) {
+	                return transaction._account === accountId;
+	            });
+	        }
+	    }, {
+	        key: 'receiveData',
+	        value: function receiveData() {
+	            dataFromAction = JSON.parse(dataFromAction);
+	            mainData = dataFromAction;
+	            return mainData;
+	            tempData = {
+	                "thereIsNo": "data"
+	            };
+	        }
+	    }]);
 
-				return _data;
-			}
-		}]);
-
-		return UserStore;
+	    return UserStore;
 	}(_events.EventEmitter);
 
 		exports.default = new UserStore();
@@ -39093,7 +39084,7 @@
 	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
-		value: true
+	    value: true
 	});
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
@@ -39113,120 +39104,120 @@
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 	var NavDivs = function (_Component) {
-		_inherits(NavDivs, _Component);
+	    _inherits(NavDivs, _Component);
 
-		function NavDivs(props) {
-			_classCallCheck(this, NavDivs);
+	    function NavDivs(props) {
+	        _classCallCheck(this, NavDivs);
 
-			var _this = _possibleConstructorReturn(this, (NavDivs.__proto__ || Object.getPrototypeOf(NavDivs)).call(this, props));
+	        var _this = _possibleConstructorReturn(this, (NavDivs.__proto__ || Object.getPrototypeOf(NavDivs)).call(this, props));
 
-			_this.viewTransactions = _this.viewTransactions.bind(_this);
-			return _this;
-		}
+	        _this.viewTransactions = _this.viewTransactions.bind(_this);
+	        return _this;
+	    }
 
-		_createClass(NavDivs, [{
-			key: 'viewTransactions',
-			value: function viewTransactions(accountId) {
-				_reactRouter.browserHistory.push('/transaction/' + accountId);
-			}
-		}, {
-			key: 'render',
-			value: function render() {
-				var _this2 = this;
+	    _createClass(NavDivs, [{
+	        key: 'viewTransactions',
+	        value: function viewTransactions(accountId) {
+	            _reactRouter.browserHistory.push('/transaction/' + accountId);
+	        }
+	    }, {
+	        key: 'render',
+	        value: function render() {
+	            var _this2 = this;
 
-				var account = this.props.account;
+	            var account = this.props.account;
 
-				return _react2.default.createElement(
-					'div',
-					{ className: 'text-md-center text-sm-center' },
-					_react2.default.createElement(
-						'div',
-						{ className: 'card', style: styles.card },
-						_react2.default.createElement(
-							'div',
-							{ className: 'card-block' },
-							_react2.default.createElement(
-								'h5',
-								{ className: 'card-title' },
-								account.meta.name,
-								' ',
-								account.meta.number
-							),
-							_react2.default.createElement(
-								'p',
-								null,
-								'Type: ',
-								account.type,
-								account.subtype ? [' |', ' ', account.subtype] : null
-							),
-							_react2.default.createElement(
-								'p',
-								{ className: 'card-text' },
-								_react2.default.createElement(
-									'span',
-									null,
-									_react2.default.createElement(
-										'em',
-										null,
-										'Available: ',
-										_react2.default.createElement(
-											'strong',
-											null,
-											'$',
-											account.balance.available
-										)
-									)
-								),
-								' | ',
-								_react2.default.createElement(
-									'span',
-									null,
-									_react2.default.createElement(
-										'em',
-										null,
-										'Current: ',
-										_react2.default.createElement(
-											'strong',
-											null,
-											'$',
-											account.balance.current
-										)
-									)
-								)
-							),
-							_react2.default.createElement(
-								'button',
-								{
-									className: 'transactionButton',
-									onClick: function onClick() {
-										return _this2.viewTransactions(account._id);
-									},
-									style: styles.button },
-								'View Transactions'
-							)
-						)
-					)
-				);
-			}
-		}]);
+	            return _react2.default.createElement(
+	                'div',
+	                { className: 'text-md-center text-sm-center' },
+	                _react2.default.createElement(
+	                    'div',
+	                    { className: 'card', style: styles.card },
+	                    _react2.default.createElement(
+	                        'div',
+	                        { className: 'card-block' },
+	                        _react2.default.createElement(
+	                            'h5',
+	                            { className: 'card-title' },
+	                            account.meta.name,
+	                            ' ',
+	                            account.meta.number
+	                        ),
+	                        _react2.default.createElement(
+	                            'p',
+	                            null,
+	                            'Type: ',
+	                            account.type,
+	                            account.subtype ? [' |', ' ', account.subtype] : null
+	                        ),
+	                        _react2.default.createElement(
+	                            'p',
+	                            { className: 'card-text' },
+	                            _react2.default.createElement(
+	                                'span',
+	                                null,
+	                                _react2.default.createElement(
+	                                    'em',
+	                                    null,
+	                                    'Available: ',
+	                                    _react2.default.createElement(
+	                                        'strong',
+	                                        null,
+	                                        '$',
+	                                        account.balance.available
+	                                    )
+	                                )
+	                            ),
+	                            ' | ',
+	                            _react2.default.createElement(
+	                                'span',
+	                                null,
+	                                _react2.default.createElement(
+	                                    'em',
+	                                    null,
+	                                    'Current: ',
+	                                    _react2.default.createElement(
+	                                        'strong',
+	                                        null,
+	                                        '$',
+	                                        account.balance.current
+	                                    )
+	                                )
+	                            )
+	                        ),
+	                        _react2.default.createElement(
+	                            'button',
+	                            {
+	                                className: 'transactionButton',
+	                                onClick: function onClick() {
+	                                    return _this2.viewTransactions(account._id);
+	                                },
+	                                style: styles.button },
+	                            'View Transactions'
+	                        )
+	                    )
+	                )
+	            );
+	        }
+	    }]);
 
-		return NavDivs;
+	    return NavDivs;
 	}(_react.Component);
 
 	exports.default = NavDivs;
 
 
 	var styles = {
-		container: {
-			paddingLeft: 100
-		},
-		card: {
-			height: 200,
-			color: '#696969'
-		},
-		button: {
-			borderWidth: 2
-		}
+	    container: {
+	        paddingLeft: 100
+	    },
+	    card: {
+	        height: 200,
+	        color: '#696969'
+	    },
+	    button: {
+	        borderWidth: 2
+	    }
 
 		};
 
@@ -39394,25 +39385,25 @@
 						_reactBootstrapTable.TableHeaderColumn,
 						{ isKey: true, dataField: 'name', dataSort: true, dataAlign: 'left' },
 						'Name ',
-						_react2.default.createElement('img', { className: 'sorticon', src: '/sort.png' })
+						_react2.default.createElement('img', { className: 'sorticon', src: '/img/sort.png' })
 					),
 					_react2.default.createElement(
 						_reactBootstrapTable.TableHeaderColumn,
 						{ dataField: 'date', dataSort: true, dataAlign: 'center', width: '250px' },
 						' Date',
-						_react2.default.createElement('img', { className: 'sorticon', src: '/sort.png' })
+						_react2.default.createElement('img', { className: 'sorticon', src: '/img/sort.png' })
 					),
 					_react2.default.createElement(
 						_reactBootstrapTable.TableHeaderColumn,
 						{ dataField: 'amount', dataSort: true, dataAlign: 'right', width: '150px' },
 						'Amount',
-						_react2.default.createElement('img', { className: 'sorticon', src: '/sort.png' })
+						_react2.default.createElement('img', { className: 'sorticon', src: '/img/sort.png' })
 					),
 					_react2.default.createElement(
 						_reactBootstrapTable.TableHeaderColumn,
 						{ dataField: 'pending', dataSort: true, dataAlign: 'center', width: '150px' },
 						'Pending?',
-						_react2.default.createElement('img', { className: 'sorticon', src: '/sort.png' })
+						_react2.default.createElement('img', { className: 'sorticon', src: '/img/sort.png' })
 					)
 				);
 			}

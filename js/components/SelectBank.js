@@ -54,7 +54,7 @@ export default class SelectBank extends Component {
         return (
             <div className="wrapper">
 				<div className="topLogin text-md-center">
-				<img className="kardLogo" src="/kard-beta-logo-green.png"/>
+				<img className="kardLogo" src="/img/kard-beta-logo-green.png"/>
 					
 						<button className="firstButton"
 						onClick={this.openSandbox}

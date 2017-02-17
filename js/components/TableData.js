@@ -28,10 +28,10 @@ export default class TableData extends Component {
 
 return(
 		  <BootstrapTable className="bsTable" data={dataForTable} options={ this.options } search={ true } searchPlaceholder='search current account...'>
-      <TableHeaderColumn isKey dataField='name' dataSort dataAlign='left'>Name <img className="sorticon" src="/sort.png"/></TableHeaderColumn>
-      <TableHeaderColumn dataField='date' dataSort dataAlign='center' width="250px"> Date<img className="sorticon" src="/sort.png"/></TableHeaderColumn>
-        <TableHeaderColumn dataField='amount' dataSort dataAlign='right' width="150px">Amount<img className="sorticon" src="/sort.png"/></TableHeaderColumn>
-                <TableHeaderColumn dataField='pending' dataSort dataAlign='center' width="150px">Pending?<img className="sorticon" src="/sort.png"/></TableHeaderColumn>
+      <TableHeaderColumn isKey dataField='name' dataSort dataAlign='left'>Name <img className="sorticon" src="/img/sort.png"/></TableHeaderColumn>
+      <TableHeaderColumn dataField='date' dataSort dataAlign='center' width="250px"> Date<img className="sorticon" src="/img/sort.png"/></TableHeaderColumn>
+        <TableHeaderColumn dataField='amount' dataSort dataAlign='right' width="150px">Amount<img className="sorticon" src="/img/sort.png"/></TableHeaderColumn>
+                <TableHeaderColumn dataField='pending' dataSort dataAlign='center' width="150px">Pending?<img className="sorticon" src="/img/sort.png"/></TableHeaderColumn>
   </BootstrapTable>
   )
 	}
