@@ -1,0 +1,119 @@
+
+.navbarbar {
+	color: red;
+}
+
+.titleStyle {
+	font-size: 40px;
+	font-family: 'Lato', sans-serif;
+	/*font-family: `'Droid Sans', sans-serif`;*/
+	/*font-family: `'Droid Serif', serif`;*/
+	color: #696969;
+}
+
+
+.sorticon{
+	height:1em;
+	width:auto;
+}
+
+.kardLogo{
+	display:block;
+	margin:auto;
+	padding-top:30vh !important;
+}
+.backButton{
+	clear:both;
+	margin-bottom: 20vh !important;
+	color: white;
+	background-color: transparent;
+	border: 2px solid white;
+	border-radius: 15px;
+}
+
+.backButton:hover{
+	color: rgb(50,82,110) !important;
+	background-color: white !important;
+
+}
+
+.firstButton{
+	clear:both;
+	margin-top: 30vh !important;
+	color: white;
+	background-color: transparent;
+	border: 2px solid white;
+	border-radius: 15px;
+}
+
+.firstButton:hover{
+	color: rgb(50,82,110) !important;
+	background-color: white !important;
+
+}
+
+.topLogin{
+	height:100vh;
+	width:100vw;
+	background-image: url("/background.png")
+}
+
+
+
+.accountContainer{
+	background-image: url("/background.png");
+}
+
+.card{
+	margin:auto;
+	width:70vw;
+	background-color: rgba(255,255,255,0.9);
+	color:black;
+	border:2px solid black;
+	border-radius:10px;
+	margin-bottom: 10px;
+}
+
+.card-text{
+	color:black;
+}
+
+.card-title{
+	color:black;
+}
+
+.transContainer{
+	height:100vh;
+	width:100vw;
+	background-image: url("/background.png");
+}
+
+.react-bs-table-container{
+	width:70vw;
+	margin:auto;
+	background-color: rgb(255,255,255);
+	border: 3px rgb(82,159,135) solid;
+	border-radius: 10px;
+
+}
+
+.bsTable{
+	padding-top: 20vh;
+}
+
+.accountTitle{
+	color:rgb(82,159,135);
+	padding-top:3vw;
+}
+
+.form-control{
+	margin:auto;
+}
+.react-bs-table{
+	margin-left:2px !important;
+}
+
+.table-bordered td, .table-bordered th{
+	border: 1px solid rgb(82,159,135) !important;
+	border-radius: 10px !important;
+}
